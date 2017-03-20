@@ -1,12 +1,15 @@
 {
-    "name": "sofa/hookable",
+    "name": "diego-vieira/hookable",
     "description": "Laravel Eloquent hooks system.",
     "license": "MIT",
     "support": {
         "issues": "https://github.com/jarektkaczyk/hookable/issues",
         "source": "https://github.com/jarektkaczyk/hookable"
     },
-    "keywords": ["eloquent", "laravel"],
+    "keywords": [
+        "eloquent",
+        "laravel"
+    ],
     "authors": [
         {
             "name": "Jarek Tkaczyk",
@@ -17,7 +20,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "illuminate/database": "5.2.*"
+        "illuminate/database": "5.2.*|5.3.*|5.4.*"
     },
     "require-dev": {
         "kahlan/kahlan": "~1.1"
